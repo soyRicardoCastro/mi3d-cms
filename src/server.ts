@@ -4,7 +4,7 @@ import payload from 'payload';
 require('dotenv').config();
 const app = express();
 
-// Redirect root to Admin panel
+// Redirect root to Admin panel gg
 app.get('/', (_, res) => {
   res.redirect('/admin');
 });
