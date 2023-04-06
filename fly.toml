@@ -1,9 +1,0 @@
-# fly.toml file generated for mi3d-backend on 2023-03-19T18:49:30-04:00
-
-app = "mi3d-backend"
-primary_region = "scl"
-
-[env]
-  MONGODB_URI = "mongodb+srv://ricardocastrodev:N9d3jR2MBIrPlNvF@cluster0.fjpijly.mongodb.net/?retryWrites=true&w=majority"
-  NODE_ENV = "production"
-  PAYLOAD_SECRET = "fd5537b2ac1aad8621b2e83e"

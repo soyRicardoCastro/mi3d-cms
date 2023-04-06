@@ -14,7 +14,12 @@ const Posts: CollectionConfig = {
       name: 'title',
       type: 'text',
       required: true
-    },  
+    },
+    {
+      name: 'content',
+      type: 'richText',
+      required: true
+    },
     {
       name: 'publishedDate',
       type: 'date',

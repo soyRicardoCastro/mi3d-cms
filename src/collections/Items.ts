@@ -17,7 +17,7 @@ const Items: CollectionConfig = {
     },
     {
       name: 'description',
-      type: 'text',
+      type: 'richText',
       required: true
     },
     {
